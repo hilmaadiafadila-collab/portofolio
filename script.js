@@ -10,13 +10,13 @@ const projects = [
         title: "Slicing Website Portfolio",
         tech: "HTML, CSS, JavaScript",
         desc: "Tugas kuliah slicing website responsive dengan DOM manipulation.",
-        // github: "https://github.com/razshelia/CollabBuy.git"
+        github: "https://github.com/hilmaadiafadila-collab/portofolio.git"
     },
     {
-        title: "RakitKru.id",
-        tech: "Business Development, Pitch Deck",
-        desc: "Project kompetisi GEMASTIK XIX — platform fractional talent cloud.",
-        // github: "https://github.com/hilmaadiafadila-collab/SewaAlatCamping.git"
+        title: "CollabBuy",
+        tech: "C#, Windows Forms, MySQL",
+        desc: "Platform group-buying/pre-order kolaboratif",
+        github: "https://github.com/razshelia/CollabBuy.git"
     }
 ];
 
