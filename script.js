@@ -5,6 +5,14 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
+const navLinkItems = navLinks.querySelectorAll('a');
+
+navLinkItems.forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+  });
+});
+
 const projects = [
     {
         title: "Slicing Website Portfolio",
