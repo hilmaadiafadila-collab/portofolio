@@ -45,7 +45,6 @@ projects.forEach(project => {
             <p>${project.desc}</p>
             <div class="project-links">
                 ${githubLink}
-                ${demoLink}
             </div>
         </div>
     `;
