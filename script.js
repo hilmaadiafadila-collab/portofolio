@@ -34,12 +34,8 @@ projects.forEach(project => {
     const card = document.createElement('div');
     card.classList.add('project-card');
 
-    // Kalau link kosong, link nggak ditampilkan
     const githubLink = project.github
         ? `<a href="${project.github}" target="_blank">GitHub →</a>`
-        : '';
-    const demoLink = project.demo
-        ? `<a href="${project.demo}" target="_blank">Live Demo →</a>`
         : '';
 
     card.innerHTML = `
