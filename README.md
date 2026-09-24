@@ -12,10 +12,12 @@ Website ini terdiri dari beberapa bagian: Home (hero section), About Me, Skills,
 
 ## Penerapan JavaScript & DOM
 
-Beberapa bagian di website ini menggunakan manipulasi DOM, di antaranya:
+Beberapa bagian di website ini menggunakan manipulasi DOM dan Asynchronous JavaScript, di antaranya:
 
-1. **Menu hamburger mobile** : toggle class `active` pada menu navigasi menggunakan `classList.toggle()`, dan menu otomatis menutup saat salah satu link diklik.
-2. **Render project secara dinamis** : data project disimpan dalam array JavaScript, lalu ditampilkan ke halaman menggunakan `document.createElement()` dan `appendChild()`, jika ingin menambah project baru bisa langsung mengedit array, tidak perlu menulis ulang HTML.
+1. **Menu hamburger mobile**: toggle class `active` pada menu navigasi menggunakan `classList.toggle()`, dan menu otomatis menutup saat salah satu link diklik.
+2. **Render project secara dinamis**: data project disimpan dalam array JavaScript, lalu ditampilkan ke halaman menggunakan `document.createElement()` dan `appendChild()`.
+3. **Fetch API ke GitHub**: setiap project card mengambil data repo secara otomatis dari GitHub REST API (`fetch()` + `async/await`), yang menampilkan bahasa programming, dan tanggal update terakhir secara real-time, tanpa perlu diinput manual.
+   
 ## Responsive Design
 
 Website ini sudah disesuaikan untuk 3 ukuran layar menggunakan media query:
